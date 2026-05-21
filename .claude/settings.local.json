@@ -10,7 +10,15 @@
       "Bash(php artisan vendor:publish:*)",
       "Bash(php artisan:*)",
       "Bash(mysql:*)",
-      "Bash(\"D:\\\\xampp\\\\mysql\\\\bin\\\\mysql.exe\" -u root -e \"CREATE DATABASE IF NOT EXISTS bir_invoicing CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;\")"
+      "Bash(\"D:\\\\xampp\\\\mysql\\\\bin\\\\mysql.exe\" -u root -e \"CREATE DATABASE IF NOT EXISTS bir_invoicing CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;\")",
+      "Bash(Get-ChildItem -Path \"d:\\\\xampp\\\\apache\\\\bin\\\\bir-invoicing-backend-api\" -Force)",
+      "Bash(Select-Object Name, PSIsContainer)",
+      "Bash(xargs basename -a)",
+      "Bash(not exist *)",
+      "Bash(mkdir -p \"d:/xampp/apache/bin/bir-invoicing-backend-api/docs\")"
+    ],
+    "additionalDirectories": [
+      "d:\\xampp\\apache\\bin\\bir-invoicing-backend-api\\docs"
     ]
   }
 }
